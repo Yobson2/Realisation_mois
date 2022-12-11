@@ -1,0 +1,71 @@
+*,::before,::after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card-form{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg,#FFFFFF 0, #5555);
+}
+#login{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: bisque;
+    width: 300px;
+    height: auto;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: -1px -3px 19px 6px #D4D1D1;
+}
+h3{
+    text-align: center;
+    font-size: 1.5em;
+    line-height: 3.5;
+    text-shadow: 3px 3px 7px #484242, -3px 7px 7px #000;
+}
+.registre-name{
+    display: block;
+    flex-direction: column;
+    margin-top: 20px;
+}
+input{
+    width: 80%;
+    height: 50px;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+}
+.send-check{
+    display: block;
+    margin-top: 20px;
+}
+.send-check>p{
+    font-size: 14px;
+}
+.send-check,a{
+    text-decoration: none;
+}
+label{
+   font-size: 16px; 
+   margin-bottom: 10px;
+}
+
+#btn-button{
+    width: 40%; 
+    height: 40px; 
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    transition: 1s background-color ease-in-out;
+}
+#btn-button:hover{
+    background-color: rgb(213, 224, 241);
+    color:white;
+}
